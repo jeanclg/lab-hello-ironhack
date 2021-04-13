@@ -1,38 +1,73 @@
-.App {
-  text-align: center;
+.hero-bcg {
+  background-color: #1f2535;
+  margin: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+}
+
+.logo {
+  position: absolute;
+  right: 150px;
+  bottom: 540px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 64px;
+  padding-top: 100px;
+}
+
+.white {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+span {
+  font-size: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button {
+  background-color: white;
+  padding: 20px;
+  color: black;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 20px;
+  border-radius: 6px;
+}
+
+.features {
+  margin-top: 100px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.row .column img {
+  width: auto;
+  height: 100px;
+}
+
+.row .column {
+  text-align: left;
+  width: 200px;
+}
+
+.row .column h3 {
+  color: #1f2535;
+  font-size: 1.5em;
+  margin-bottom: 0;
+  margin-top: 5px;
+}
+
+.row .column p {
+  color: gray;
+  margin-top: 0;
 }
